@@ -1,0 +1,184 @@
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-track-piece {
+    background-color: #fff;
+    -webkit-border-radius: 6px;
+}
+::-webkit-scrollbar{
+    width: 6px;
+}
+::-webkit-scrollbar-thumb {
+    border-width: 0;
+    border-style: solid;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    background: #d9d9d9;
+}
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, '微软雅黑',sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+#search-input .dropdown-toggle{
+    border: none; border-radius: 3px 3px 0 0; padding-top: 10px; padding-bottom: 10px;
+}
+#search-input{
+    background: #fff;
+    box-shadow: 0 2px 2px rgba(0,0,0,.15);
+    border-radius: 2px 3px 3px 2px;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding-right: 10px;
+}
+#search-input input{
+    font-size: 16px;
+    line-height: 30px; height: 40px; padding: 5px 15px;
+    outline: none;
+    vertical-align: middle;
+    width: 220px; border: none;
+}
+#search-input input:focus{
+    border: none; box-shadow: none;
+}
+#search-input .icon{
+    color: #969696;
+    cursor: pointer;
+    font-size: 16px;
+}
+#search-input .icon:hover{
+    color: #000;
+}
+#search-type{
+
+}
+#search-type button{
+    border: 0;
+    padding: 10px 15px;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.15);
+    border-radius: 0;
+}
+#upload-ip-file{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 7px 15px;
+    height: 40px;
+    font-size: 18px;
+    margin: 0;
+    color: #969696;
+}
+#upload-ip-file:hover{
+    color: #000;
+}
+
+#area-figure{
+    display: inline-block; vertical-align: middle;
+    position: relative;
+}
+
+#area-selected{
+    background: #fff;
+    display: inline-block;
+    padding: 10px 10px 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.15);
+}
+#area-selected:hover{
+    color: #005E61;
+}
+#area-selected .icon{
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+}
+#area-selected .icon.active{
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+}
+
+
+#area-float{
+    position: absolute;;
+    top: 45px; left: 0;
+    background: #fff; margin-top: 5px;
+    width: 450px;
+    padding: 10px 15px;
+    overflow: hidden;
+    -webkit-box-shadow: 0 2px 6px 0 rgba(0,0,0,.2),0 2px 6px 0 rgba(0,0,0,.19);
+    -moz-box-shadow: 0 2px 6px 0 rgba(0,0,0,.2),0 2px 6px 0 rgba(0,0,0,.19);
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.2),0 2px 6px 0 rgba(0,0,0,.19);
+}
+#area-float .area-figcation{
+    font-weight: bold;
+    padding: 5px 0 10px;
+    border-bottom: 1px solid #d1d1d1;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+#area-float .area-dl{
+    max-height: 290px; overflow: auto;
+    font-size: 12px;
+}
+#area-float dl{
+    margin-bottom: 0;
+}
+#area-float dt{
+    float: left;
+}
+#area-float dd{
+    margin: 8px;
+    margin-left: 53px;
+}
+#area-float dd li{
+    display: inline-block;
+    margin-right: 8px; line-height: 20px;
+}
+#area-float dd li:hover{
+    color: #005E61; cursor: pointer;
+}
+
+#area-filter{
+    position: fixed; width: 377px;
+    top: 65px; left: 20px;
+    background: #fff;
+    padding: 20px 15px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.15);
+    line-height: 25px;
+    overflow: auto;
+}
+
+#area-filter .province-name{
+    text-decoration: underline;
+    color: #337ab7; margin-right: 5px;
+    cursor: pointer;
+}
+.sug_cities li{
+    float: left; margin-right: 12px; font-size: 12px;
+    cursor: pointer;
+}
+.sug_cities ul{
+    display: none;
+}
+.sug_cities ul:before,
+.sug_cities ul:after{
+    content: ""; display: table;
+}
+.sug_cities ul:after{
+    clear: both;
+}
+.sug-province{
+    padding: 5px;
+}
+.sug_cities_show{
+    background: #f3f3f3;
+}
+.sug_cities_show ul{
+    display: block;
+}
+#amap-result-banner,.poi-sug-feedback{
+    display: none;
+}

@@ -1,0 +1,1118 @@
+npm WARN deprecated This version of npm lacks support for important features,
+npm WARN deprecated such as scoped packages, offered by the primary npm
+npm WARN deprecated registry. Consider upgrading to at least npm@2, if not the
+npm WARN deprecated latest stable version. To upgrade to npm@2, run:
+npm WARN deprecated 
+npm WARN deprecated   npm -g install npm@latest-2
+npm WARN deprecated 
+npm WARN deprecated To upgrade to the latest stable version, run:
+npm WARN deprecated 
+npm WARN deprecated   npm -g install npm@latest
+npm WARN deprecated 
+npm WARN deprecated (Depending on how Node.js was installed on your system, you
+npm WARN deprecated may need to prefix the preceding commands with `sudo`, or if
+npm WARN deprecated on Windows, run them from an Administrator prompt.)
+npm WARN deprecated 
+npm WARN deprecated If you're running the version of npm bundled with
+npm WARN deprecated Node.js 0.10 LTS, be aware that the next version of 0.10 LTS
+npm WARN deprecated will be bundled with a version of npm@2, which has some small
+npm WARN deprecated backwards-incompatible changes made to `npm run-script` and
+npm WARN deprecated semver behavior.
+
+> GaodeIp@0.0.0 start /home/xufengchao/GaodeIp
+> node ./bin/www
+
+[0mGET / [32m200 [0m7.250 ms - 5204[0m
+[0mGET /favicon.ico [31m500 [0m7.192 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/218.30.116.10 [32m200 [0m247.208 ms - 88[0m
+[0mGET / [32m200 [0m1.183 ms - 5204[0m
+[0mGET /favicon.ico [31m500 [0m2.290 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/218.30.116.10 [32m200 [0m93.292 ms - 88[0m
+[0mGET /search/221.121.126.77 [32m200 [0m94.483 ms - 73[0m
+[0mGET /search/210.34.240.100 [32m200 [0m521.974 ms - 73[0m
+[0mGET /search/210.34.240.182 [32m200 [0m421.648 ms - 73[0m
+[0mGET / [32m200 [0m0.812 ms - 5204[0m
+[0mGET /favicon.ico [31m500 [0m2.574 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET / [36m304 [0m4.101 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m3.272 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/218.30.116.10 [32m200 [0m88.537 ms - 88[0m
+[0mGET /search/61.158.162.61 [32m200 [0m117.100 ms - 72[0m
+[0mGET /search/219.141.234.6 [32m200 [0m125.569 ms - 87[0m
+[0mGET /search/202.97.158.60 [32m200 [0m122.706 ms - 88[0m
+[0mGET / [36m304 [0m0.514 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.663 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/115.205.238.213 [32m200 [0m93.743 ms - 89[0m
+[0mGET /search/60.29.123.194 [32m200 [0m208.951 ms - 88[0m
+[0mGET /search/124.65.34.70 [32m200 [0m132.908 ms - 87[0m
+[0mGET /search/60.206.40.87 [32m200 [0m137.671 ms - 86[0m
+[0mGET /search/124.228.115.188 [32m200 [0m195.447 ms - 90[0m
+[0mGET /search/124.228.115.188 [36m304 [0m21163.964 ms - -[0m
+[0mGET /search/61.186.243.123 [32m200 [0m93.896 ms - 89[0m
+[0mGET /search/202.104.142.3 [32m200 [0m198.518 ms - 84[0m
+[0mGET /search/14.136.198.66 [32m200 [0m115.097 ms - 88[0m
+[0mGET /search/202.114.64.216 [32m200 [0m87.316 ms - 73[0m
+[0mGET /search/218.5.205.124 [32m200 [0m192.836 ms - 72[0m
+[0mGET /search/222.84.136.7 [32m200 [0m126.956 ms - 85[0m
+[0mGET /search/59.40.77.61 [32m200 [0m90.416 ms - 83[0m
+[0mGET /search/121.15.143.202 [32m200 [0m184.117 ms - 89[0m
+[0mGET /search/123.103.56.254 [32m200 [0m159.531 ms - 73[0m
+[0mGET /search/106.2.170.194 [32m200 [0m97.432 ms - 87[0m
+[0mGET /search/219.139.130.123 [32m200 [0m232.352 ms - 90[0m
+[0mGET /search/61.189.98.188 [32m200 [0m278.811 ms - 79[0m
+[0mGET /search/210.74.35.65 [32m200 [0m130.279 ms - 86[0m
+[0mGET /search/218.5.80.250 [32m200 [0m118.649 ms - 86[0m
+[0mGET /search/218.5.80.250 [32m200 [0m95.441 ms - 86[0m
+[0mGET /search/218.5.80.250 [32m200 [0m134.691 ms - 86[0m
+[0mGET /search/218.5.80.250 [32m200 [0m60057.909 ms - 21[0m
+[0mGET /search/59.63.170.242 [32m200 [0m122.878 ms - 72[0m
+[0mGET /search/219.141.246.119 [32m200 [0m88.650 ms - 74[0m
+[0mGET /search/106.37.187.139 [32m200 [0m119.671 ms - 88[0m
+[0mGET /search/112.96.164.80 [32m200 [0m114.157 ms - 72[0m
+[0mGET /search/124.251.21.4 [32m200 [0m95.557 ms - 71[0m
+[0mGET /search/218.22.0.147 [32m200 [0m124.942 ms - 86[0m
+[0mGET /search/39.78.55.109 [32m200 [0m110.742 ms - 86[0m
+[0mGET /search/59.63.170.242 [36m304 [0m89.299 ms - -[0m
+[0mGET /search/175.22.6.45 [32m200 [0m121.241 ms - 70[0m
+[0mGET /search/111.194.110.68 [32m200 [0m136.961 ms - 89[0m
+[0mGET /search/219.238.197.130 [32m200 [0m110.843 ms - 89[0m
+[0mGET /search/210.75.192.2 [32m200 [0m118.781 ms - 71[0m
+[0mGET /search/114.255.165.142 [32m200 [0m111.846 ms - 89[0m
+[0mGET /search/111.13.178.100 [32m200 [0m89.078 ms - 73[0m
+[0mGET /search/59.54.202.37 [32m200 [0m116.751 ms - 87[0m
+[0mGET / [32m200 [0m0.688 ms - 5204[0m
+[0mGET /favicon.ico [31m500 [0m1.269 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET / [36m304 [0m0.355 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m2.725 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/23.234.29.4 [32m200 [0m201.084 ms - 70[0m
+[0mGET /search/211.103.131.2 [32m200 [0m123.316 ms - 88[0m
+[0mGET /search/111.198.170.204 [32m200 [0m87.695 ms - 90[0m
+[0mGET /search/111.13.178.100 [36m304 [0m116.972 ms - -[0m
+[0mGET /search/112.224.17.110 [32m200 [0m119.715 ms - 73[0m
+[0mGET /search/223.104.91.89 [32m200 [0m146.135 ms - 72[0m
+[0mGET /search/183.37.165.226 [32m200 [0m154.343 ms - 86[0m
+[0mGET /search/58.49.169.186 [32m200 [0m130.916 ms - 87[0m
+[0mGET /search/59.174.205.5 [32m200 [0m86.063 ms - 86[0m
+[0mGET /search/175.167.152.98 [32m200 [0m93.299 ms - 73[0m
+[0mGET /search/59.54.202.37 [32m200 [0m521.499 ms - 87[0m
+[0mGET /search/61.145.231.203 [32m200 [0m21178.404 ms - 88[0m
+[0mGET /search/182.88.148.207 [32m200 [0m118.824 ms - 73[0m
+[0mGET /search/223.104.90.77 [32m200 [0m163.633 ms - 72[0m
+[0mGET /search/202.106.55.226 [32m200 [0m159.896 ms - 73[0m
+[0mGET /search/202.60.126.189 [32m200 [0m177.930 ms - 73[0m
+[0mGET /search/60.10.198.9 [32m200 [0m115.754 ms - 85[0m
+[0mGET /search/36.110.61.110 [32m200 [0m199.561 ms - 87[0m
+[0mGET /search/221.226.83.18 [32m200 [0m124.605 ms - 72[0m
+[0mGET /search/124.207.124.69 [32m200 [0m116.975 ms - 88[0m
+[0mGET /search/221.236.35.2 [32m200 [0m212.710 ms - 87[0m
+[0mGET /search/202.104.122.227 [32m200 [0m94.011 ms - 90[0m
+[0mGET /search/124.127.118.158 [32m200 [0m119.162 ms - 74[0m
+[0mGET /search/118.116.94.222 [32m200 [0m123.412 ms - 88[0m
+[0mGET /search/61.183.129.254 [32m200 [0m118.128 ms - 86[0m
+[0mGET /search/58.211.58.57 [32m200 [0m127.125 ms - 87[0m
+[0mGET /search/202.201.114.118 [32m200 [0m94.378 ms - 74[0m
+[0mGET / [32m200 [0m0.573 ms - 5204[0m
+[0mGET /favicon.ico [31m500 [0m1.492 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/218.30.116.10 [32m200 [0m106.126 ms - 86[0m
+[0mGET / [32m200 [0m0.538 ms - 5204[0m
+[0mGET /favicon.ico [31m500 [0m1.187 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/218.30.116.10 [32m200 [0m123.667 ms - 86[0m
+[0mGET /search/ [31m500 [0m2.476 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/ [31m500 [0m1.227 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET / [32m200 [0m0.483 ms - 5204[0m
+[0mGET / [32m200 [0m0.513 ms - 5204[0m
+[0mGET /favicon.ico [31m500 [0m2.330 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET / [32m200 [0m0.526 ms - 5204[0m
+[0mGET /favicon.ico [31m500 [0m1.253 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET / [36m304 [0m0.339 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.802 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /favicon.ico [31m500 [0m2.595 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /favicon.ico [31m500 [0m1.036 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/218.30.116.10 [32m200 [0m228.003 ms - 86[0m
+[0mGET /search/ [31m500 [0m1.221 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/ [31m500 [0m2.084 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/ [31m500 [0m1.335 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET / [36m304 [0m0.378 ms - -[0m
+[0mGET /search/218.30.116.10 [36m304 [0m199.850 ms - -[0m
+[0mGET /search/218.30.116.11 [32m200 [0m212.655 ms - 72[0m
+[0mGET /search/218.30.116.10 [36m304 [0m199.919 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.446 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET / [32m200 [0m0.531 ms - 5204[0m
+[0mGET /favicon.ico [31m500 [0m1.230 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET / [32m200 [0m0.465 ms - 5204[0m
+[0mGET / [36m304 [0m0.313 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.896 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/218.30.116.10 [32m200 [0m98.123 ms - 86[0m
+[0mGET /search/114.254.124.251 [32m200 [0m93.840 ms - 89[0m
+[0mGET /search/101.20.98.74 [32m200 [0m117.795 ms - 71[0m
+[0mGET /search/101.20.98.74 [36m304 [0m126.282 ms - -[0m
+[0mGET /search/211.151.122.99 [32m200 [0m120.123 ms - 73[0m
+[0mGET /search/59.63.189.244 [32m200 [0m119.697 ms - 72[0m
+[0mGET /search/101.20.98.74 [36m304 [0m98.618 ms - -[0m
+[0mGET / [36m304 [0m0.697 ms - -[0m
+[0mGET /search/218.30.116.10 [36m304 [0m208.973 ms - -[0m
+[0mGET / [32m200 [0m0.588 ms - 5204[0m
+[0mGET /favicon.ico [31m500 [0m1.501 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/23.234.29.4 [32m200 [0m163.377 ms - 70[0m
+[0mGET /search/101.198.128.11 [32m200 [0m236.305 ms - 73[0m
+[0mGET /search/58.248.192.93 [32m200 [0m264.095 ms - 72[0m
+[0mGET /search/113.99.4.124 [32m200 [0m118.474 ms - 87[0m
+[0mGET /search/114.253.46.9 [32m200 [0m121.328 ms - 85[0m
+[0mGET /search/222.129.191.152 [32m200 [0m174.311 ms - 89[0m
+[0mGET /search/221.220.155.8 [32m200 [0m172.466 ms - 87[0m
+[0mGET /search/117.136.75.174 [32m200 [0m169.047 ms - 73[0m
+[0mGET /search/117.136.75.207 [32m200 [0m170.611 ms - 73[0m
+[0mGET /search/117.136.75.218 [32m200 [0m119.543 ms - 73[0m
+[0mGET /search/117.136.75.165 [32m200 [0m197.480 ms - 73[0m
+[0mGET /search/117.136.75.201 [32m200 [0m181.504 ms - 73[0m
+[0mGET /search/117.136.75.1 [32m200 [0m2095.121 ms - 71[0m
+[0mGET /search/117.136.75.254 [32m200 [0m219.508 ms - 73[0m
+[0mGET /search/117.136.76.254 [32m200 [0m181.168 ms - 73[0m
+[0mGET /search/117.136.75.230 [32m200 [0m197.702 ms - 73[0m
+[0mGET /search/117.136.75.244 [32m200 [0m199.484 ms - 73[0m
+[0mGET /search/54.222.212.77 [32m200 [0m178.650 ms - 72[0m
+[0mGET /search/14.146.248.9 [32m200 [0m122.625 ms - 86[0m
+[0mGET /search/113.31.46.154 [32m200 [0m198.788 ms - 72[0m
+[0mGET /search/121.234.241.194 [32m200 [0m208.672 ms - 74[0m
+[0mGET /search/14.107.239.158 [32m200 [0m200.585 ms - 72[0m
+[0mGET /search/60.181.100.72 [32m200 [0m324.249 ms - 72[0m
+[0mGET /search/59.172.58.141 [32m200 [0m168.589 ms - 87[0m
+[0mGET / [36m304 [0m1.900 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.639 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/218.30.116.10 [32m200 [0m145.143 ms - 86[0m
+[0mGET /search/218.30.116.10 [36m304 [0m126.978 ms - -[0m
+[0mGET / [32m200 [0m24.957 ms - 5204[0m
+[0mGET / [36m304 [0m0.704 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.760 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET / [36m304 [0m0.365 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.725 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET / [32m200 [0m0.744 ms - 5204[0m
+[0mGET / [32m200 [0m10.807 ms - 5204[0m
+[0mGET / [32m200 [0m1.010 ms - 5204[0m
+[0mGET / [32m200 [0m2.019 ms - 5204[0m
+[0mGET / [36m304 [0m0.571 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m2.081 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET / [32m200 [0m0.603 ms - 5204[0m
+[0mGET /favicon.ico [31m500 [0m2.670 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /favicon.ico [31m500 [0m1.159 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET / [36m304 [0m0.394 ms - -[0m
+[0mGET / [36m304 [0m0.735 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.346 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET / [36m304 [0m0.476 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.646 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/218.30.116.10 [32m200 [0m118.286 ms - 85[0m
+[0mGET / [32m200 [0m0.637 ms - 5204[0m
+[0mGET /favicon.ico [31m500 [0m1.615 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/123.243.76.230 [32m200 [0m154.225 ms - 73[0m
+[0mGET /search/218.106.182.191 [32m200 [0m189.863 ms - 89[0m
+[0mGET /search/220.160.193.198 [32m200 [0m189.573 ms - 90[0m
+[0mGET /search/116.230.207.152 [32m200 [0m1113.139 ms - 89[0m
+[0mGET /search/119.255.23.233 [32m200 [0m104.337 ms - 88[0m
+[0mGET /search/45.35.119.29 [32m200 [0m128.025 ms - 71[0m
+[0mGET /search/118.73.44.142 [32m200 [0m195.830 ms - 88[0m
+[0mGET /search/113.57.183.124 [32m200 [0m119.058 ms - 73[0m
+[0mGET /search/58.246.118.137 [32m200 [0m121.958 ms - 89[0m
+[0mGET /search/106.185.33.191 [32m200 [0m86.091 ms - 73[0m
+[0mGET /search/190.231.248.46 [32m200 [0m101.889 ms - 73[0m
+[0mGET /search/101.90.254.210 [32m200 [0m170.218 ms - 73[0m
+[0mGET /search/119.29.174.153 [32m200 [0m197.577 ms - 73[0m
+[0mGET /search/161.202.94.213 [32m200 [0m119.971 ms - 73[0m
+[0mGET /search/202.127.209.16 [32m200 [0m124.547 ms - 73[0m
+[0mGET / [36m304 [0m0.498 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m2.330 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/202.127.209.16 [36m304 [0m90.717 ms - -[0m
+[0mGET /search/161.202.94.213 [36m304 [0m175.220 ms - -[0m
+[0mGET /search/58.246.118.137 [36m304 [0m198.941 ms - -[0m
+[0mGET /search/58.40.126.233 [32m200 [0m240.573 ms - 87[0m
+[0mGET /search/125.39.34.225 [32m200 [0m115.967 ms - 72[0m
+[0mGET /search/58.210.8.130 [32m200 [0m117.989 ms - 87[0m
+[0mGET /search/93.34.59.57 [32m200 [0m91.302 ms - 70[0m
+[0mGET /search/140.224.170.83 [32m200 [0m162.398 ms - 89[0m
+[0mGET /search/218.59.142.68 [32m200 [0m192.316 ms - 88[0m
+[0mGET /search/118.193.255.210 [32m200 [0m145.139 ms - 74[0m
+[0mGET /search/118.122.122.192 [32m200 [0m111.484 ms - 90[0m
+[0mGET /search/118.145.0.245 [32m200 [0m115.583 ms - 87[0m
+[0mGET /search/71.219.249.137 [32m200 [0m158.067 ms - 73[0m
+[0mGET /search/117.81.167.141 [32m200 [0m167.403 ms - 73[0m
+[0mGET /search/ [31m500 [0m1.935 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET / [36m304 [0m0.352 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.833 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET / [36m304 [0m0.491 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m2.022 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/118.193.132.87 [32m200 [0m127.333 ms - 73[0m
+[0mGET /search/219.141.248.162 [32m200 [0m125.324 ms - 89[0m
+[0mGET /search/219.141.248.176 [32m200 [0m122.895 ms - 89[0m
+[0mGET /search/58.217.190.214 [32m200 [0m89.339 ms - 73[0m
+[0mGET /search/218.59.142.220 [32m200 [0m118.208 ms - 87[0m
+[0mGET /search/115.204.152.88 [32m200 [0m285.162 ms - 88[0m
+[0mGET /search/103.207.231.63 [32m200 [0m131.114 ms - 73[0m
+[0mGET /search/219.141.248.167 [32m200 [0m136.493 ms - 89[0m
+[0mGET /search/106.83.78.250 [32m200 [0m103.905 ms - 72[0m
+[0mGET /search/111.78.204.88 [32m200 [0m3090.650 ms - 72[0m
+[0mGET /search/111.78.204.88 [36m304 [0m206.737 ms - -[0m
+[0mGET /search/123.191.0.205 [32m200 [0m225.601 ms - 79[0m
+[0mGET /search/59.172.176.224 [32m200 [0m114.699 ms - 89[0m
+[0mGET /search/219.141.248.174 [32m200 [0m115.662 ms - 89[0m
+[0mGET /search/221.239.88.58 [32m200 [0m91.041 ms - 86[0m
+[0mGET /search/123.243.76.230 [36m304 [0m85.551 ms - -[0m
+[0mGET /search/5.145.151.2 [32m200 [0m176.763 ms - 70[0m
+[0mGET /search/5.145.151.2 [36m304 [0m211.506 ms - -[0m
+[0mGET /search/123.243.76.230 [36m304 [0m117.760 ms - -[0m
+[0mGET /search/218.106.182.191 [36m304 [0m113.933 ms - -[0m
+[0mGET /search/220.160.193.198 [36m304 [0m3092.335 ms - -[0m
+[0mGET /search/220.160.193.198 [36m304 [0m154.869 ms - -[0m
+[0mGET /search/221.239.88.58 [36m304 [0m188.246 ms - -[0m
+[0mGET /search/219.141.248.164 [32m200 [0m256.666 ms - 90[0m
+[0mGET / [36m304 [0m0.338 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.509 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET / [36m304 [0m0.328 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.282 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET / [36m304 [0m0.318 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.233 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET / [36m304 [0m0.321 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m2.570 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+npm WARN deprecated This version of npm lacks support for important features,
+npm WARN deprecated such as scoped packages, offered by the primary npm
+npm WARN deprecated registry. Consider upgrading to at least npm@2, if not the
+npm WARN deprecated latest stable version. To upgrade to npm@2, run:
+npm WARN deprecated 
+npm WARN deprecated   npm -g install npm@latest-2
+npm WARN deprecated 
+npm WARN deprecated To upgrade to the latest stable version, run:
+npm WARN deprecated 
+npm WARN deprecated   npm -g install npm@latest
+npm WARN deprecated 
+npm WARN deprecated (Depending on how Node.js was installed on your system, you
+npm WARN deprecated may need to prefix the preceding commands with `sudo`, or if
+npm WARN deprecated on Windows, run them from an Administrator prompt.)
+npm WARN deprecated 
+npm WARN deprecated If you're running the version of npm bundled with
+npm WARN deprecated Node.js 0.10 LTS, be aware that the next version of 0.10 LTS
+npm WARN deprecated will be bundled with a version of npm@2, which has some small
+npm WARN deprecated backwards-incompatible changes made to `npm run-script` and
+npm WARN deprecated semver behavior.
+
+> GaodeIp@0.0.0 start /home/xufengchao/GaodeIp
+> node ./bin/www
+
+[0mGET / [32m200 [0m7.458 ms - 5204[0m
+[0mGET /search/212.129.13.110 [32m200 [0m181.811 ms - 73[0m
+[0mGET / [36m304 [0m1.690 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m7.300 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/212.129.13.110 [36m304 [0m233.169 ms - -[0m
+[0mGET / [36m304 [0m0.448 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m2.031 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/218.30.116.10 [36m304 [0m196.093 ms - -[0m
+[0mGET / [36m304 [0m9.705 ms - -[0m
+[0mGET / [36m304 [0m0.500 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.631 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/113.245.56.15 [32m200 [0m159.430 ms - 88[0m
+[0mGET /search/74.125.230.240 [32m200 [0m180.446 ms - 73[0m
+[0mGET /search/173.194.38.199 [32m200 [0m213.196 ms - 73[0m
+[0mGET /search/211.138.17.31 [32m200 [0m211.268 ms - 72[0m
+[0mGET /search/115.29.205.153 [32m200 [0m114.423 ms - 73[0m
+[0mGET /search/91.108.56.167 [32m200 [0m138.122 ms - 72[0m
+[0mGET /search/125.39.112.17 [32m200 [0m93.165 ms - 72[0m
+[0mGET /search/111.161.17.22 [32m200 [0m98.504 ms - 72[0m
+[0mGET /search/101.7.244.81 [32m200 [0m290.136 ms - 71[0m
+[0mGET /search/106.114.253.16 [32m200 [0m210.019 ms - 89[0m
+[0mGET /search/60.220.230.68 [32m200 [0m193.279 ms - 72[0m
+[0mGET /search/101.7.244.59 [32m200 [0m198.090 ms - 85[0m
+[0mGET /search/114.111.167.89 [32m200 [0m87.949 ms - 73[0m
+[0mGET /search/111.161.17.22 [36m304 [0m88.921 ms - -[0m
+[0mGET /search/111.202.0.30 [32m200 [0m123.906 ms - 71[0m
+[0mGET /search/118.186.222.3 [32m200 [0m216.037 ms - 88[0m
+[0mGET / [32m200 [0m7.621 ms - 5204[0m
+[0mGET /favicon.ico [31m500 [0m2.199 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/124.237.96.39 [32m200 [0m97.891 ms - 72[0m
+[0mGET / [32m200 [0m52.378 ms - 5204[0m
+[0mGET / [32m200 [0m0.746 ms - 5204[0m
+[0mGET / [36m304 [0m0.406 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.535 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET / [32m200 [0m0.628 ms - 5204[0m
+[0mGET /search/222.87.72.27 [32m200 [0m154.559 ms - 87[0m
+[0mGET /search/113.103.85.132 [32m200 [0m90.522 ms - 87[0m
+[0mGET /search/113.103.82.138 [32m200 [0m211.861 ms - 89[0m
+[0mGET /search/116.22.118.211 [32m200 [0m206.773 ms - 88[0m
+[0mGET /favicon.ico [31m500 [0m1.390 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET / [32m200 [0m0.607 ms - 5204[0m
+[0mGET /favicon.ico [31m500 [0m2.147 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /favicon.ico [31m500 [0m1.200 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/218.30.116.10 [32m200 [0m128.692 ms - 85[0m
+[0mGET /search/218.30.116.10 [36m304 [0m117.315 ms - -[0m
+[0mGET / [36m304 [0m0.380 ms - -[0m
+[0mGET /search/218.30.116.10 [36m304 [0m92.725 ms - -[0m
+[0mGET / [36m304 [0m0.371 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.309 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/218.22.0.147 [32m200 [0m208.446 ms - 87[0m
+[0mGET /search/123.113.65.176 [32m200 [0m159.483 ms - 88[0m
+[0mGET / [32m200 [0m15.319 ms - 5204[0m
+[0mGET /favicon.ico [31m500 [0m2.406 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/123.113.65.176 [32m200 [0m96.755 ms - 88[0m
+[0mGET /search/203.69.23.121 [32m200 [0m373.757 ms - 72[0m
+[0mGET / [36m304 [0m52.991 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m65.192 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/120.194.237.223 [32m200 [0m317.225 ms - 90[0m
+[0mGET /search/175.99.141.90 [32m200 [0m294.383 ms - 72[0m
+[0mGET /search/221.176.253.237 [32m200 [0m373.345 ms - 89[0m
+[0mGET /search/184.105.247.126 [32m200 [0m118.485 ms - 74[0m
+[0mGET /search/139.55.85.1 [32m200 [0m167.602 ms - 70[0m
+[0mGET / [36m304 [0m1.037 ms - -[0m
+[0mGET / [36m304 [0m0.364 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m45.195 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/110.185.210.155 [32m200 [0m289.760 ms - 88[0m
+[0mGET /search/36.48.109.43 [32m200 [0m108.236 ms - 86[0m
+[0mGET /search/222.168.113.130 [32m200 [0m112.356 ms - 74[0m
+[0mGET /search/222.168.110.174 [32m200 [0m225.302 ms - 74[0m
+[0mGET /search/222.168.113.131 [32m200 [0m142.866 ms - 74[0m
+[0mGET /search/218.92.28.29 [32m200 [0m119.053 ms - 85[0m
+[0mGET /search/111.161.168.240 [32m200 [0m150.353 ms - 74[0m
+[0mGET /search/122.136.45.16 [32m200 [0m121.377 ms - 72[0m
+[0mGET /search/222.168.100.42 [32m200 [0m97.238 ms - 73[0m
+[0mGET / [36m304 [0m18.583 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.417 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /favicon.ico [31m500 [0m1.852 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/218.30.116.10 [36m304 [0m144.256 ms - -[0m
+[0mGET /search/218.30.116.10 [36m304 [0m149.948 ms - -[0m
+[0mGET /search/58.252.106.140 [32m200 [0m170.441 ms - 73[0m
+[0mGET /search/113.107.252.74 [32m200 [0m125.585 ms - 89[0m
+[0mGET /search/183.27.198.210 [32m200 [0m134.877 ms - 87[0m
+[0mGET /search/58.210.21.190 [32m200 [0m107.379 ms - 82[0m
+[0mGET /search/58.211.182.254 [32m200 [0m98.764 ms - 73[0m
+[0mGET / [36m304 [0m0.391 ms - -[0m
+[0mGET /search/61.216.10.7 [32m200 [0m122.826 ms - 70[0m
+[0mGET /search/61.216.10.7 [36m304 [0m185.552 ms - -[0m
+[0mGET /search/61.216.10.7 [36m304 [0m199.921 ms - -[0m
+[0mGET /search/222.223.17.123 [32m200 [0m122.501 ms - 73[0m
+[0mGET /search/210.22.101.182 [32m200 [0m99.971 ms - 88[0m
+[0mGET /search/119.100.226.179 [32m200 [0m90.821 ms - 74[0m
+[0mGET /search/115.57.127.205 [32m200 [0m261.261 ms - 73[0m
+[0mGET /search/221.204.33.159 [32m200 [0m200.754 ms - 87[0m
+[0mGET /search/27.210.60.141 [32m200 [0m194.340 ms - 87[0m
+[0mGET /search/182.102.80.107 [32m200 [0m197.945 ms - 73[0m
+[0mGET /search/27.128.187.71 [32m200 [0m92.776 ms - 72[0m
+[0mGET /search/119.187.56.214 [32m200 [0m160.079 ms - 73[0m
+[0mGET /search/119.147.23.113 [32m200 [0m198.562 ms - 73[0m
+[0mGET /search/120.27.105.51 [32m200 [0m213.191 ms - 72[0m
+[0mGET / [32m200 [0m33.372 ms - 5204[0m
+[0mGET /favicon.ico [31m500 [0m2.652 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET / [36m304 [0m0.571 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.523 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET / [32m200 [0m17.202 ms - 5204[0m
+[0mGET /favicon.ico [31m500 [0m1.437 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/218.30.116.10 [32m200 [0m120.170 ms - 85[0m
+[0mGET /search/%E5%A4%96%E4%BA%A4%E9%83%A8 [32m200 [0m124.897 ms - 77[0m
+[0mGET /search/106.187.94.249 [32m200 [0m3160.748 ms - 73[0m
+[0mGET /search/106.187.94.249 [36m304 [0m2096.345 ms - -[0m
+[0mGET /search/122.235.142.255 [32m200 [0m155.835 ms - 90[0m
+[0mGET /search/202.108.187.109 [32m200 [0m125.027 ms - 74[0m
+[0mGET /search/106.185.41.200 [32m200 [0m120.425 ms - 73[0m
+[0mGET /search/202.127.209.16 [32m200 [0m114.960 ms - 73[0m
+[0mGET /search/45.48.207.148 [32m200 [0m172.437 ms - 72[0m
+[0mGET /search/58.17.121.201 [32m200 [0m100.783 ms - 87[0m
+[0mGET /search/112.111.160.43 [32m200 [0m121.493 ms - 89[0m
+[0mGET /search/10.18.31.151 [32m200 [0m147.660 ms - 71[0m
+[0mGET /search/10.18.26.70 [32m200 [0m113.219 ms - 70[0m
+[0mGET /search/106.187.94.249 [36m304 [0m165.641 ms - -[0m
+[0mGET /search/75.80.49.2 [32m200 [0m103.132 ms - 69[0m
+[0mGET /search/46.166.138.168 [32m200 [0m96.728 ms - 73[0m
+[0mGET /search/219.141.248.162 [32m200 [0m185.076 ms - 89[0m
+[0mGET /search/58.40.126.233 [32m200 [0m167.486 ms - 87[0m
+[0mGET /search/118.145.0.245 [32m200 [0m206.288 ms - 87[0m
+[0mGET /search/59.172.176.224 [32m200 [0m209.602 ms - 89[0m
+[0mGET /search/202.127.20.51%20219.141.248.180%20118.194.240.46%20113.57.247.152%20113.200.79.11%20183.206.164.168%20117.30.128.162%20111.160.242.34%20202.100.231.236%20219.141.248.175%20219.141.248.184%20219.141.234.6%2059.180.240.138%20103.247.178.131%2058.217.245.85%20218.106.182.8%20111.78.214.74%20146.151.203.99%20101.127.75.230%20101.86.203.105%20101.20.111.102%20202.206.190.243%20112.2.238.228%20101.90.255.232%2039.72.8.156%20223.104.25.74%2059.172.144.143%20106.83.73.47%20106.83.64.102%20106.92.30.197%20117.28.251.186%20112.5.175.8%2010.125.115.69%20220.181.171.123%20106.226.60.139%2061.50.123.146%20223.167.160.94%20119.255.23.75%20110.251.15.196%2010.137.116.193%20203.184.13.80%2058.217.250.33%20113.91.86.177%20112.5.175.10%2014.107.68.131%20116.52.11.234%20124.161.102.34%2027.154.154.12%20219.85.167.166%20202.108.187.99%2061.49.25.98%20106.6.58.26%20106.37.187.137%20106.83.70.156%20106.83.53.203%20202.100.223.137%20222.76.242.29%20112.2.236.43%20180.150.230.229%2060.28.182.19%20202.108.187.107%20218.5.195.181%20106.37.187.139%20119.128.88.173%2049.85.230.160%20125.68.47.66%20223.65.62.83%20123.97.108.115%202.35.18.84%20220.160.105.140%2010.18.180.21%20202.108.187.103%20115.211.181.41%20123.116.130.214%20115.195.46.83%20219.141.248.179%20219.141.248.170%20106.83.65.50%20106.83.75.35%20125.71.229.19%20124.11.190.70%20114.24.26.243%20117.28.251.184%2080.50.236.74%2061.49.25.124%20180.139.91.148%20120.39.50.18%20103.249.31.241%20111.28.55.64%20202.108.187.108%2061.49.25.56%20112.253.1.9%2061.49.25.85%20202.108.187.98%20116.237.67.159%201.189.181.186%20111.194.135.236%20117.174.213.30%20221.215.222.150%20202.100.223.163%2060.216.5.242%2059.57.162.152%2061.158.99.171%2036.231.119.229%20202.108.187.100%2049.80.216.95%2061.163.3.84%20120.39.51.122%20113.5.105.85%2036.231.104.245%2087.234.238.106%20118.113.140.213%2061.178.110.24%20202.108.187.102%2061.135.231.42%20219.143.74.42%20219.143.74.41%20103.198.192.161%20140.240.160.229%20116.12.56.2%20113.4.139.107%2042.92.165.243%20222.191.167.0%2036.231.127.48%2093.43.201.24%201.204.53.238%20182.37.37.94%2078.184.137.163%2060.160.250.184%20123.120.173.89%2060.212.40.135%2061.235.102.226%20190.219.98.82%2059.50.11.21 [32m200 [0m101.589 ms - 1979[0m
+[0mGET /search/%20219.141.248.180%20118.194.240.46%20113.57.247.152%20113.200.79.11%20183.206.164.168%20117.30.128.162%20111.160.242.34%20202.100.231.236%20219.141.248.175%20219.141.248.184%20219.141.234.6%2059.180.240.138%20103.247.178.131%2058.217.245.85%20218.106.182.8%20111.78.214.74%20146.151.203.99%20101.127.75.230%20101.86.203.105%20101.20.111.102%20202.206.190.243%20112.2.238.228%20101.90.255.232%2039.72.8.156%20223.104.25.74%2059.172.144.143%20106.83.73.47%20106.83.64.102%20106.92.30.197%20117.28.251.186%20112.5.175.8%2010.125.115.69%20220.181.171.123%20106.226.60.139%2061.50.123.146%20223.167.160.94%20119.255.23.75%20110.251.15.196%2010.137.116.193%20203.184.13.80%2058.217.250.33%20113.91.86.177%20112.5.175.10%2014.107.68.131%20116.52.11.234%20124.161.102.34%2027.154.154.12%20219.85.167.166%20202.108.187.99%2061.49.25.98%20106.6.58.26%20106.37.187.137%20106.83.70.156%20106.83.53.203%20202.100.223.137%20222.76.242.29%20112.2.236.43%20180.150.230.229%2060.28.182.19%20202.108.187.107%20218.5.195.181%20106.37.187.139%20119.128.88.173%2049.85.230.160%20125.68.47.66%20223.65.62.83%20123.97.108.115%202.35.18.84%20220.160.105.140%2010.18.180.21%20202.108.187.103%20115.211.181.41%20123.116.130.214%20115.195.46.83%20219.141.248.179%20219.141.248.170%20106.83.65.50%20106.83.75.35%20125.71.229.19%20124.11.190.70%20114.24.26.243%20117.28.251.184%2080.50.236.74%2061.49.25.124%20180.139.91.148%20120.39.50.18%20103.249.31.241%20111.28.55.64%20202.108.187.108%2061.49.25.56%20112.253.1.9%2061.49.25.85%20202.108.187.98%20116.237.67.159%201.189.181.186%20111.194.135.236%20117.174.213.30%20221.215.222.150%20202.100.223.163%2060.216.5.242%2059.57.162.152%2061.158.99.171%2036.231.119.229%20202.108.187.100%2049.80.216.95%2061.163.3.84%20120.39.51.122%20113.5.105.85%2036.231.104.245%2087.234.238.106%20118.113.140.213%2061.178.110.24%20202.108.187.102%2061.135.231.42%20219.143.74.42%20219.143.74.41%20103.198.192.161%20140.240.160.229%20116.12.56.2%20113.4.139.107%2042.92.165.243%20222.191.167.0%2036.231.127.48%2093.43.201.24%201.204.53.238%20182.37.37.94%2078.184.137.163%2060.160.250.184%20123.120.173.89%2060.212.40.135%2061.235.102.226%20190.219.98.82%2059.50.11.21 [32m200 [0m96.724 ms - 1965[0m
+[0mGET /search/%20219.141.248.180%20118.194.240.46%20113.57.247.152%20113.200.79.11%20183.206.164.168%20117.30.128.162%20111.160.242.34%20202.100.231.236%20219.141.248.175%20219.141.248.184%20219.141.234.6%2059.180.240.138%20103.247.178.131%2058.217.245.85%20218.106.182.8%20111.78.214.74%20146.151.203.99%20101.127.75.230%20101.86.203.105%20101.20.111.102%20202.206.190.243%20112.2.238.228%20101.90.255.232%2039.72.8.156%20223.104.25.74%2059.172.144.143%20106.83.73.47%20106.83.64.102%20106.92.30.197%20117.28.251.186%20112.5.175.8%2010.125.115.69%20220.181.171.123%20106.226.60.139%2061.50.123.146%20223.167.160.94%20119.255.23.75%20110.251.15.196%2010.137.116.193%20203.184.13.80%2058.217.250.33%20113.91.86.177%20112.5.175.10%2014.107.68.131%20116.52.11.234%20124.161.102.34%2027.154.154.12%20219.85.167.166%20202.108.187.99%2061.49.25.98%20106.6.58.26%20106.37.187.137%20106.83.70.156%20106.83.53.203%20202.100.223.137%20222.76.242.29%20112.2.236.43%20180.150.230.229%2060.28.182.19%20202.108.187.107%20218.5.195.181%20106.37.187.139%20119.128.88.173%2049.85.230.160%20125.68.47.66%20223.65.62.83%20123.97.108.115%202.35.18.84%20220.160.105.140%2010.18.180.21%20202.108.187.103%20115.211.181.41%20123.116.130.214%20115.195.46.83%20219.141.248.179%20219.141.248.170%20106.83.65.50%20106.83.75.35%20125.71.229.19%20124.11.190.70%20114.24.26.243%20117.28.251.184%2080.50.236.74%2061.49.25.124%20180.139.91.148%20120.39.50.18%20103.249.31.241%20111.28.55.64%20202.108.187.108%2061.49.25.56%20112.253.1.9%2061.49.25.85%20202.108.187.98%20116.237.67.159%201.189.181.186%20111.194.135.236%20117.174.213.30%20221.215.222.150%20202.100.223.163%2060.216.5.242%2059.57.162.152%2061.158.99.171%2036.231.119.229%20202.108.187.100%2049.80.216.95%2061.163.3.84%20120.39.51.122%20113.5.105.85%2036.231.104.245%2087.234.238.106%20118.113.140.213%2061.178.110.24%20202.108.187.102%2061.135.231.42%20219.143.74.42%20219.143.74.41%20103.198.192.161%20140.240.160.229%20116.12.56.2%20113.4.139.107%2042.92.165.243%20222.191.167.0%2036.231.127.48%2093.43.201.24%201.204.53.238%20182.37.37.94%2078.184.137.163%2060.160.250.184%20123.120.173.89%2060.212.40.135%2061.235.102.226%20190.219.98.82%2059.50.11.21 [36m304 [0m123.936 ms - -[0m
+[0mGET /search/219.141.248.180%20118.194.240.46%20113.57.247.152%20113.200.79.11%20183.206.164.168%20117.30.128.162%20111.160.242.34%20202.100.231.236%20219.141.248.175%20219.141.248.184%20219.141.234.6%2059.180.240.138%20103.247.178.131%2058.217.245.85%20218.106.182.8%20111.78.214.74%20146.151.203.99%20101.127.75.230%20101.86.203.105%20101.20.111.102%20202.206.190.243%20112.2.238.228%20101.90.255.232%2039.72.8.156%20223.104.25.74%2059.172.144.143%20106.83.73.47%20106.83.64.102%20106.92.30.197%20117.28.251.186%20112.5.175.8%2010.125.115.69%20220.181.171.123%20106.226.60.139%2061.50.123.146%20223.167.160.94%20119.255.23.75%20110.251.15.196%2010.137.116.193%20203.184.13.80%2058.217.250.33%20113.91.86.177%20112.5.175.10%2014.107.68.131%20116.52.11.234%20124.161.102.34%2027.154.154.12%20219.85.167.166%20202.108.187.99%2061.49.25.98%20106.6.58.26%20106.37.187.137%20106.83.70.156%20106.83.53.203%20202.100.223.137%20222.76.242.29%20112.2.236.43%20180.150.230.229%2060.28.182.19%20202.108.187.107%20218.5.195.181%20106.37.187.139%20119.128.88.173%2049.85.230.160%20125.68.47.66%20223.65.62.83%20123.97.108.115%202.35.18.84%20220.160.105.140%2010.18.180.21%20202.108.187.103%20115.211.181.41%20123.116.130.214%20115.195.46.83%20219.141.248.179%20219.141.248.170%20106.83.65.50%20106.83.75.35%20125.71.229.19%20124.11.190.70%20114.24.26.243%20117.28.251.184%2080.50.236.74%2061.49.25.124%20180.139.91.148%20120.39.50.18%20103.249.31.241%20111.28.55.64%20202.108.187.108%2061.49.25.56%20112.253.1.9%2061.49.25.85%20202.108.187.98%20116.237.67.159%201.189.181.186%20111.194.135.236%20117.174.213.30%20221.215.222.150%20202.100.223.163%2060.216.5.242%2059.57.162.152%2061.158.99.171%2036.231.119.229%20202.108.187.100%2049.80.216.95%2061.163.3.84%20120.39.51.122%20113.5.105.85%2036.231.104.245%2087.234.238.106%20118.113.140.213%2061.178.110.24%20202.108.187.102%2061.135.231.42%20219.143.74.42%20219.143.74.41%20103.198.192.161%20140.240.160.229%20116.12.56.2%20113.4.139.107%2042.92.165.243%20222.191.167.0%2036.231.127.48%2093.43.201.24%201.204.53.238%20182.37.37.94%2078.184.137.163%2060.160.250.184%20123.120.173.89%2060.212.40.135%2061.235.102.226%20190.219.98.82%2059.50.11.21 [32m200 [0m121.514 ms - 1965[0m
+[0mGET /search/118.194.240.46%20113.57.247.152%20113.200.79.11%20183.206.164.168%20117.30.128.162%20111.160.242.34%20202.100.231.236%20219.141.248.175%20219.141.248.184%20219.141.234.6%2059.180.240.138%20103.247.178.131%2058.217.245.85%20218.106.182.8%20111.78.214.74%20146.151.203.99%20101.127.75.230%20101.86.203.105%20101.20.111.102%20202.206.190.243%20112.2.238.228%20101.90.255.232%2039.72.8.156%20223.104.25.74%2059.172.144.143%20106.83.73.47%20106.83.64.102%20106.92.30.197%20117.28.251.186%20112.5.175.8%2010.125.115.69%20220.181.171.123%20106.226.60.139%2061.50.123.146%20223.167.160.94%20119.255.23.75%20110.251.15.196%2010.137.116.193%20203.184.13.80%2058.217.250.33%20113.91.86.177%20112.5.175.10%2014.107.68.131%20116.52.11.234%20124.161.102.34%2027.154.154.12%20219.85.167.166%20202.108.187.99%2061.49.25.98%20106.6.58.26%20106.37.187.137%20106.83.70.156%20106.83.53.203%20202.100.223.137%20222.76.242.29%20112.2.236.43%20180.150.230.229%2060.28.182.19%20202.108.187.107%20218.5.195.181%20106.37.187.139%20119.128.88.173%2049.85.230.160%20125.68.47.66%20223.65.62.83%20123.97.108.115%202.35.18.84%20220.160.105.140%2010.18.180.21%20202.108.187.103%20115.211.181.41%20123.116.130.214%20115.195.46.83%20219.141.248.179%20219.141.248.170%20106.83.65.50%20106.83.75.35%20125.71.229.19%20124.11.190.70%20114.24.26.243%20117.28.251.184%2080.50.236.74%2061.49.25.124%20180.139.91.148%20120.39.50.18%20103.249.31.241%20111.28.55.64%20202.108.187.108%2061.49.25.56%20112.253.1.9%2061.49.25.85%20202.108.187.98%20116.237.67.159%201.189.181.186%20111.194.135.236%20117.174.213.30%20221.215.222.150%20202.100.223.163%2060.216.5.242%2059.57.162.152%2061.158.99.171%2036.231.119.229%20202.108.187.100%2049.80.216.95%2061.163.3.84%20120.39.51.122%20113.5.105.85%2036.231.104.245%2087.234.238.106%20118.113.140.213%2061.178.110.24%20202.108.187.102%2061.135.231.42%20219.143.74.42%20219.143.74.41%20103.198.192.161%20140.240.160.229%20116.12.56.2%20113.4.139.107%2042.92.165.243%20222.191.167.0%2036.231.127.48%2093.43.201.24%201.204.53.238%20182.37.37.94%2078.184.137.163%2060.160.250.184%20123.120.173.89%2060.212.40.135%2061.235.102.226%20190.219.98.82%2059.50.11.21 [32m200 [0m175.529 ms - 1949[0m
+[0mGET /search/118.194.240.46 [32m200 [0m129.642 ms - 73[0m
+[0mGET /search/118.194.240.46 [36m304 [0m91.759 ms - -[0m
+[0mGET / [36m304 [0m0.412 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.652 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET / [32m200 [0m9.664 ms - 5204[0m
+[0mGET / [32m200 [0m2.345 ms - 5204[0m
+[0mGET / [32m200 [0m1.759 ms - 5204[0m
+[0mGET /favicon.ico [31m500 [0m1.624 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/218.30.116.10 [32m200 [0m205.663 ms - 85[0m
+[0mGET /search/218.30.116.10 [36m304 [0m234.615 ms - -[0m
+[0mGET /search/1.1.1.1 [32m200 [0m121.186 ms - 66[0m
+[0mGET / [36m304 [0m0.774 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.807 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/218.30.116.10 [36m304 [0m2089.071 ms - -[0m
+[0mGET /search/218.30.116.10 [36m304 [0m195.080 ms - -[0m
+[0mGET / [36m304 [0m0.769 ms - -[0m
+[0mGET /favicon.ico [31m500 [0m1.636 ms - 1166[0m
+Error: Failed to lookup view "error" in views directory "/home/xufengchao/GaodeIp/public"
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:579:17)
+    at ServerResponse.render (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:961:7)
+    at module.exports (/home/xufengchao/GaodeIp/app.js:59:7)
+    at Layer.handle_error (/home/xufengchao/GaodeIp/node_modules/express/lib/router/layer.js:71:5)
+    at trim_prefix (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:310:13)
+    at /home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:330:12)
+    at IncomingMessage.next (/home/xufengchao/GaodeIp/node_modules/express/lib/router/index.js:271:10)
+    at done (/home/xufengchao/GaodeIp/node_modules/express/lib/response.js:956:25)
+    at EventEmitter.render (/home/xufengchao/GaodeIp/node_modules/express/lib/application.js:581:14)
+[0mGET /search/218.30.116.10 [32m200 [0m191.534 ms - 86[0m
+[0mGET /search/222.168.113.130 [32m200 [0m142.149 ms - 74[0m
+[0mGET /search/106.2.170.194 [32m200 [0m132.290 ms - 88[0m
+[0mGET /search/110.155.75.34 [32m200 [0m160.654 ms - 87[0m

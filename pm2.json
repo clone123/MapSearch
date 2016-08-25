@@ -1,0 +1,22 @@
+{
+  "apps" : [{
+    "name"               : "GaodeIp",
+    "script"             : "bin/serv.js",
+    "env": {
+      "COMMON_VARIABLE": "true",
+      "PORT": "5020",
+      "NODE_ENV": "production"
+    },
+    "exec_interpreter"   : "node",
+    "node_args"          : "--harmony",
+    "exec_mode"          : "cluster_mode",
+    "instances"          : 4,
+    "log_date_format"    : "",
+    "max_memory_restart" : "1400M",
+    "merge_logs"         : true,
+    "error_file"         : "logs/error.log",
+    "out_file"           : "logs/out.log",
+    "pid_file"           : "logs/web-fe.pid",
+    "watch"              : false
+  }]
+}

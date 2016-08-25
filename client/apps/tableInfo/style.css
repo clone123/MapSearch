@@ -1,0 +1,29 @@
+#search-table-info{
+    position: fixed; top: 20px;
+    right: 20px; width: 550px;
+}
+#search-table-info .sti-opts{
+    margin-bottom: 10px;
+}
+#search-table-info .sti-opts .form-control{
+    float: left; margin-right: 10px;
+}
+
+#search-table-info .btn-sti-download{
+
+}
+#search-table-info .table-bordered{
+    cursor: pointer;
+}
+#search-table-info .trClick {
+    background-color: #428bca;
+    color: #fff;
+}
+#search-table-info .sti-label .label{
+    display: inline-block; margin-bottom: 5px;vertical-align: middle;
+    margin-right: 5px;
+}
+
+.sti-view{
+    overflow-y: auto; min-height: 200px;
+}
